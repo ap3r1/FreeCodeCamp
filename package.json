@@ -1,62 +1,19 @@
+    
 {
-    "name": "package-json-validator",
-    "version": "0.6.3",
-    "description": "Tools to validate package.json files",
-    "author": {
-        "name": "Nick Sullivan",
-        "email": "nick@sullivanflock.com",
-        "web": "http://creationeer.me"
-    },
-    "contributors": [
-        {
-            "name": "Nick Sullivan",
-            "email": "nick@sullivanflock.com",
-            "url": "http://creationeer.me"
-        },
-        {
-            "name": "Jose",
-            "url": "https://github.com/pdehaan"
-        },
-        {
-            "name": "Jatin Chopra",
-            "url": "https://github.com/jatin-"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:gorillamania/package.json-validator.git"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/gorillamania/package.json-validator/blob/master/LICENSE"
-        }
-    ],
-    "keywords": [
-        "package.json",
-        "validator",
-        "package.json validator",
-        "lint",
-        "package.json linter"
-    ],
-    "homepage": "http://package-json-validator.com",
-    "bugs": {
-        "url": "http://github.com/gorillamania/package.json-validator/issues",
-        "email": "nick@sullivanflock.com"
-    },
-    "dependencies": {
-        "optimist": "~0.6.0"
-    },
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0",
-        "grunt-contrib-qunit": "~0"
-    },
-    "scripts": {
-        "test": "grunt citest"
-    },
-    "main": "PJV.js",
-    "bin": {
-        "pjv": "./bin/pjv"
-    }
+    "author": "JD",
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "8.11.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
 }
